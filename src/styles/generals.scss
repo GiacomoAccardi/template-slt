@@ -1,0 +1,52 @@
+//Lora font
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// regole generali
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+.bt{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+
+// palette colori e dichiarazione variabili
+$dark-slate-grey:#2f4647;
+$verdigris:#619d9d;
+$cambridge-blue:#8CB6B6;
+$ash-grey:#a4c1c1;
+$azure:#D5E5E5;
+$champagne-pink:#E8DAD0;
+
+.bg-azure{
+    background-color: $azure;
+}
+.text-dsgrey{
+    color: $dark-slate-grey;
+}
+.bt-dsgrey{
+    background-color: $dark-slate-grey;
+    color: $azure;
+
+    &:hover{
+        transition: 0.6s;
+        background-color: $ash-grey;
+        color: $dark-slate-grey;
+    }
+}
+.bg-resume{
+    background: rgb(164,193,193);
+    background: linear-gradient(90deg, #8CB6B6 50%, rgba(97,157,157,1) 50%);
+}
+.bg-pink{
+    background-color: $champagne-pink;
+}
+.bg-dsgrey{
+    background-color: $dark-slate-grey;
+}
+
