@@ -8,7 +8,7 @@ export default {
     <div class="resume-wrap bg-resume">
         <div class="container-fluid d-flex">
             <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center p-5">
-                <p class="resume-txt text-center p-5">
+                <p class="resume-txt text-center text-dsgrey p-5">
                     La mia missione è supportare bambini, adolescenti e adulti a superare le difficoltà legate alla parola, alla voce e alla comprensione <br>
                     <span>.</span>
                 </p>
@@ -23,7 +23,7 @@ export default {
     <div class="scnd-wrap bg-pink p-5">
         <div class="container-fluid">
             <div class="col-12 p-5 d-flex flex-column">
-                <p>
+                <p class="text-dsgrey">
                     Ogni percorso terapeutico che propongo è personalizzato, in base alle esigenze specifiche del paziente. Utilizzo approcci basati su evidenze scientifiche, integrando tecniche tradizionali con nuove metodologie per garantire i migliori risultati.
                 </p>
             </div>
@@ -54,6 +54,7 @@ export default {
     }
 }
 .scnd-wrap{
+    scroll-snap-align: center;
     p{
         font-size: 2.8rem;
         font-weight: 900;
@@ -76,5 +77,11 @@ export default {
             left: 0;
         }
     }
+}
+.bg-resume{
+    scroll-snap-align: center;
+}
+.bg-dsgrey{
+    scroll-snap-align: center;
 }
 </style>

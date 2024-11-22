@@ -26,6 +26,7 @@ export default {
 
 <style lang="scss">
   header{
+    scroll-snap-align: center;
     padding: 40px;
       .logo-cont{
         line-height: 1;

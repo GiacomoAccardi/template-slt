@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lora", serif;
+    scroll-snap-type: y mandatory;
 }
 .bt{
     padding: 15px;
@@ -14,7 +15,6 @@
     border-radius: 10px;
     font-weight: lighter;
 }
-
 // palette colori e dichiarazione variabili
 $dark-slate-grey:#2f4647;
 $verdigris:#619d9d;
@@ -48,5 +48,11 @@ $champagne-pink:#E8DAD0;
 }
 .bg-dsgrey{
     background-color: $dark-slate-grey;
+}
+.bg-ash{
+    background-color: $ash-grey;
+}
+.text-pink{
+    color: $champagne-pink;
 }
 
